@@ -1,6 +1,6 @@
  
 import { useState } from "react";
-import ImagePopup from "../../modals/ImagePopup";
+// import ImagePopup from "../../modals/ImagePopup";
 import "react-18-image-lightbox/style.css";
 
 // import portfolio_img_1 from "../../../public/assets/images/projects/work1.jpg";
@@ -58,16 +58,16 @@ const portfolio_data:DataType[] = [
 export default function PortfolioArea() {
 
   // photoIndex
-  const [photoIndex, setPhotoIndex] = useState(null);
+  // const [photoIndex, setPhotoIndex] = useState(null);
   // image open state
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
   // handleImagePopup
-  const handleImagePopup = (i: any) => {
-    setPhotoIndex(i);
-    setIsOpen(true);
-  };
+  // const handleImagePopup = (i: any) => {
+  //   setPhotoIndex(i);
+  //   setIsOpen(true);
+  // };
   //  images
-  const image = portfolio_data.slice(0, 5).map((item) => item.image);
+  // const image = portfolio_data.slice(0, 5).map((item) => item.image);
 
 
   return (
@@ -86,7 +86,7 @@ export default function PortfolioArea() {
   >
     <a
       style={{ cursor: "pointer" }}
-      onClick={() => handleImagePopup(i)}
+      // onClick={() => handleImagePopup(i)}
       className="work-popup"
     >
       <div className="portfolio-box" style={{ height: "100%" }}>
@@ -120,14 +120,14 @@ export default function PortfolioArea() {
       </div>
 
       {/* image light box start */}
-      {isOpen && (
+      {/* {isOpen && (
         <ImagePopup
           images={image}
           setIsOpen={setIsOpen}
           photoIndex={photoIndex}
           setPhotoIndex={setPhotoIndex}
         />
-      )}
+      )} */}
       {/* image light box end */}
     </>
   )

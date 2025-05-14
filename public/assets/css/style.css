@@ -1336,11 +1336,18 @@ html {
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
+@media screen and (max-width:767px) {
+    .hero-image img{
+        rotate: 0deg;
+    }   
+        
+}
 
 .hero-image img:hover {
     rotate: 0deg;
     -webkit-transition: 0.4s;
     transition: 0.4s;
+   
 }
 
 /*Clienti Reviews*/

@@ -9,14 +9,14 @@ export default function FooterOne() {
             <div className="col-lg-12">
               <div className="footer-top">
                 <p> Have a project in mind?</p>
-                <h2><a href="mailto:hello@websitename.com">lets work</a></h2>
+                <h2 style={{fontSize:'30px'}}><a href="mailto:hello@websitename.com">lets work</a></h2>
               </div>
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6 col-sm-6">
+            {/* <div className="col-lg-6 col-sm-6">
               <p className="copy-left-text">Template by <a target="_blank" href="https://themeforest.net/user/theme_ocean/portfolio">Creative Personal®</a></p>
-            </div>
+            </div> */}
             <div className="col-lg-6 col-sm-6">
               <p className="copy-right-text"> © Copyright {new Date().getFullYear()}</p>
             </div>
