@@ -354,7 +354,7 @@ Version      : 1.0
     }
 
     .about-content-part p {
-        font-size: 24px;
+        font-size: 14px;
         line-height: 1.4em;
     }
 
@@ -464,11 +464,12 @@ Version      : 1.0
     }
 
     .hero-counter-area .count-text {
-        font-size: 30px;
+        font-size: 22px;
     }
 
     .hero-counter-area .counter-title {
         font-size: 14px;
+        line-height: 20px;
     }
 
 }
@@ -676,10 +677,10 @@ Version      : 1.0
 }
 
 @media only screen and (max-width: 767px) {
-    .hero-counter-area {
+    /* .hero-counter-area {
         padding-left: 25px;
         padding-right: 25px;
-    }
+    } */
 }
 
 

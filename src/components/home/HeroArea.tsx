@@ -42,13 +42,13 @@ export default function HeroArea() {
               </div>
 
             </div>
-            <div className="col-lg-3 pt-30">
+            {/* <div className="col-lg-3 pt-30">
               <div className="hero-content wow fadeInUp delay-0-4s">
                 <p>Hi, I’m Shubham, a passionate software engineer with experience in developing scalable web applications and solving complex problems using modern technologies</p>
                 <a className="theme-btn" href="">Get In touch</a>
               </div>
 
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

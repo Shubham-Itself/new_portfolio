@@ -5,14 +5,14 @@ const counter_data = [
   {
     id: 1,
     title: 'Years Of Experience',
-    count: 8,
+    count: 2,
     cls: "plus",
   },
   {
     id: 2,
     title: 'Completed Projects',
-    count: 1,
-    cls: "k-plus",
+    count: 20,
+    cls: "plus",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ export default function AboutArea() {
               <div className="hero-counter-area d-flex justify-content-between wow fadeInUp delay-0-4s">
                 {counter_data.map((item, i) => (
                   <div key={i} className="counter-item counter-text-wrap">
-                    <span className={`count-text ${item.cls}`}>
+                    <span className={`count-text ${item.title === "Client Satisfactions" ? "percent" : "plus"}`}>
                       <Count number={item.count} />
                     </span>
                     <span className="counter-title">{item.title}</span>

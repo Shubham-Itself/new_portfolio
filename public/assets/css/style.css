@@ -63,6 +63,15 @@ Version      : 1.0
     box-shadow: none;
 }
 
+* {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+  
+  *::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge, Opera */
+  }
+
 body {
     color: #E6EAEE;
     background: var(--body-background);
@@ -1437,6 +1446,8 @@ html {
     transform: translateY(-50%);
     border-radius: 100%;
 }
+
+
 
 .about-content-part p {
     font-size: 24px;

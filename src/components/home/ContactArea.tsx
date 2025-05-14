@@ -30,13 +30,13 @@ export default function ContactArea() {
             <div className="col-lg-4">
               <div className="contact-content-part  wow fadeInUp delay-0-2s">
 
-                <div className="single-contact wow fadeInUp" data-wow-delay=".2s">
+                {/* <div className="single-contact wow fadeInUp" data-wow-delay=".2s">
                   <span className="circle-btn">
                     <i className="ri-map-pin-line"></i>
                   </span>
                   <h2>our office:</h2>
                   <p>Jurain,Dhaka Bangladesh</p>
-                </div>
+                </div> */}
 
 
                 <div className="single-contact wow fadeInUp" data-wow-delay=".4s">
@@ -44,7 +44,7 @@ export default function ContactArea() {
                     <i className="ri-headphone-line"></i>
                   </span>
                   <h2>contact number:</h2>
-                  <p>+1234321321</p>
+                  <p>+91-9315573591</p>
                 </div>
 
 
@@ -52,8 +52,8 @@ export default function ContactArea() {
                   <span className="circle-btn">
                     <i className="ri-mail-line"></i>
                   </span>
-                  <h2>Email us:</h2>
-                  <p>websitename@mail.com</p>
+                  <h2>Email:</h2>
+                  <p>shubhamk2208@gmail.com</p>
                 </div>
 
 
@@ -61,10 +61,10 @@ export default function ContactArea() {
                   <h2>Socials</h2>
                   <div className="about-social">
                     <ul>
-                      <li><a target='_blank' href="https://facebook.com"><i className="ri-facebook-circle-fill"></i></a></li>
-                      <li><a target='_blank' href="https://twitter.com"><i className="ri-twitter-x-line"></i></a></li>
-                      <li><a target='_blank' href="https://linkedin.com"><i className="ri-linkedin-fill"></i></a></li>
-                      <li><a target='_blank' href="https://github.com/jamilrayhan10"><i className="ri-github-line"></i></a></li>
+                      {/* <li><a target='_blank' href="https://facebook.com"><i className="ri-facebook-circle-fill"></i></a></li>
+                      <li><a target='_blank' href="https://twitter.com"><i className="ri-twitter-x-line"></i></a></li> */}
+                      <li><a target='_blank' href="https://www.linkedin.com/in/shubham-kumar-0b77741b2/"><i className="ri-linkedin-fill"></i></a></li>
+                      <li><a target='_blank' href="https://github.com/Shubham-Itself"><i className="ri-github-line"></i></a></li>
                     </ul>
                   </div>
                 </div>
