@@ -128,6 +128,39 @@ export default function TestimonoalArea() {
 </div>
 
 </div>
+<div className="col-lg-6 col-md-6">
+
+<div className="testimonial-item wow fadeInUp delay-0-9s">
+  <div className="author">
+  <img src="/assets/images/testimonials/afzl_test.webp" alt="Author" style={{width:'90px' , height:'90px'}} />
+  </div>
+  <div className="text">
+  During a key stage of our product, Shubham contributed significantly to the frontend side. His skills, reliability, and commitment to excellence were evident throughout. He played a crucial role in shaping the product UI.
+  </div>
+  <div className="testi-des">
+    <h5>Afzal Ali</h5>
+    <span>Founder, One Tap AI</span>
+  </div>
+</div>
+
+</div>
+
+<div className="col-lg-6 col-md-6">
+
+<div className="testimonial-item wow fadeInUp delay-0-9s">
+  <div className="author">
+  <img src="/assets/images/testimonials/reetik_test.webp" alt="Author" style={{width:'90px' , height:'90px'}} />
+  </div>
+  <div className="text">
+  I’ve worked with Shubham on a few freelance projects, and his professionalism stood out every time. He combines technical depth with a great sense of responsibility—an ideal collaborator.
+  </div>
+  <div className="testi-des">
+    <h5>Reetik Rajan</h5>
+    <span>Security Engineer, Zupee</span>
+  </div>
+</div>
+
+</div>
           </div>
         </div>
       </section>
